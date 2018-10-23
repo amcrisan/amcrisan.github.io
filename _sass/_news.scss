@@ -1,0 +1,19 @@
+
+#news a{
+    color: $text-colour;
+    text-decoration:none;
+    padding-bottom:5px;
+}
+
+#news a:hover{
+    border-bottom: 2px solid rgb(255, 215, 39);
+}
+
+#news p{
+    font-size: 0.75em;
+    margin-bottom:-2px;
+}
+
+.news-item{
+    margin-bottom:15px;
+}

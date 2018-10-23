@@ -1,0 +1,21 @@
+/*
+ *Scrolling
+ */
+
+ /*
+ a[ id= "publications" ]:target ~ #publications {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "talks" ]:target ~ #talks {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+
+
+a[ id= "contacto" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+*/

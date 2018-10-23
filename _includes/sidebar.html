@@ -1,0 +1,31 @@
+<!-- Sidebar Holder -->
+<div id="sidebar">
+    <!--
+    <ul class="list-unstyled components">
+        <li><a href="#" class="active">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    -->
+    
+    <div class="sidebar-header">
+            <h3>Latest News</h3>
+            <p style="font-size:0.85em"><em>Click on a news item for details</em></p>
+    </div>
+
+    <div id="news" style="padding: 10px;">
+        {% for post in site.posts %}
+        {% capture category %}{{post.categories}}{% endcapture %}
+        {% if category == "news" %}
+        <div class = "news-item">
+       
+        <p>{{ post.date | date: "%b %Y" }} </p>
+        <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
+        
+        
+        </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+    
+</div>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="breadcrumbs moduletable">
+    <ul class="breadcrumb">
+      <li class="active">You are here: &nbsp;</li>
+      <li><a href="{{ site.baseurl }}/" class="pathway">Home</a> | </li>
+      <li><a href="{{ site.baseurl }}/projects/" class="pathway">Projects</a> | </li>
+      {% if page.shortTitle %}
+      <li class="active"><span>{{ page.shortTitle }}</span></li>
+      {% endif %}
+      <!--<li class="active"><span>{{ page.title }}</span></li>-->
+    </ul>
+  </div>
+  
+<h1>{{page.longTitle}}</h1>
+
+{{content}}
+

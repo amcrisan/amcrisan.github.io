@@ -1,0 +1,22 @@
+title: Ana's Research Website
+email: acrisan@cs.ubc.ca
+description: Hi! I am Ana, welcome to my research site
+baseurl: ""
+url: "https://amcrisan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: amcrisan
+github_username:  amcrisan
+
+# Build settings
+markdown: kramdown
+auto_ids: true
+encoding: utf-8
+theme: minima
+gems:
+  - jekyll-feed
+  - github-pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+google_analytics: "'UA-89533538-1'"
+use_analytics: true

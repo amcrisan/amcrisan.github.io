@@ -1,0 +1,25 @@
+div .talks{
+    margin-bottom:5px;
+}
+
+div .talk a{
+    color:#587272;
+    padding:2px;
+    margin-right:5px;
+    border-bottom: 1px solid #587272;;
+}
+
+div .talk a:hover{
+    color:#fff;
+    background:#587272;
+}
+
+div .talkTitle{
+    font-weight: bold;
+}
+
+div .talkResource{
+    color:#587272;
+    font-size:0.85em;
+    margin-bottom:1px;
+}

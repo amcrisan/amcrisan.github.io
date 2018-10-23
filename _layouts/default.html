@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        <div class="wrapper">
+            {% include sidebar.html %}
+        
+            <div id="content">
+                {% include sidebarButton.html %}
+
+                <div class="container" style="max-width:1000px;">
+                <div class="row">
+                    <div class="navbar" align="justify">
+                            <!--<ul class="list-unstyled components">-->
+                                <ul class = "ml-auto">
+                                <li><a style = "font-size:20px;" href ="{{site.baseurl}}/index"> Hi! </a></a></li>
+                                <li><a href = "{{site.baseurl}}/publications/">Publications</a></li>
+                                <li><a href = "{{site.baseurl}}/projects/">Projects</a></li>
+                                <li><a href = "{{site.baseurl}}/teaching">Teaching</a></li>
+                                <li><a href = "{{site.baseurl}}/talks/">Talks</a></li>
+                                <li><a target = "_blank" href = "https://github.com/amcrisan">Code</a></li>
+                
+                                </ul>
+                     </div>
+                 </div>
+
+
+                {{content}}  
+
+                {% include footer.html %}
+                </div>
+            </div>
+
+
+        </div>
+        
+
+        {% include scripts.html %}
+    </body>
+</html>
+
