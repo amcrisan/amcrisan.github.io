@@ -14,7 +14,7 @@ summary: 'We created a human-in-the-loop method that used text and image analysi
 ---
 <div class="projectIntro">
 <h5><em>Anamaria Crisan, Jennifer L. Gardy, Tamara Munzner</em></h5>
-<em>Accepted at Bioinformatics/em>
+<em>Accepted at Bioinformatics</em>
 <hr>
 <i class="far fa-file-alt"></i> <a target="_blank" href="{{page.doi}}"><span>doi</span></a> | 
 <i class="fas fa-desktop"></i> <a target="_blank" href="https://gevit.net"><span> gevit.net</span></a> | <i class="fas fa-code"></i> <a target="_blank" href="{{page.code}}"><span>code</span></a> | <i class="fas fa-chalkboard-teacher"></i> <a target="_blank" href="{{ site.baseurl }}/assets/files/slides/ABPHM2017_webVersion.pdf"><span>ABPHM 2017 presentation</span> </a> | <i class="fas fa-chalkboard-teacher"></i> <a target="_blank" href="{{ site.baseurl }}/assets/files/slides/2018_ASM_NGS_V1.pdf"><span>ASM NGS 2018 presentation</span> </a> 
