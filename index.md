@@ -21,7 +21,7 @@ layout: default
         <div class="col-12 col-md-9">
          
             <h1 id="top"> Hi! I'm Ana Crisan</h1>
-            <p> I am a Senior Research Scientist at [Tableau Research](https://research.tableau.com/). I am part of the Office of the CTO, where I design and develop new visual modalities for humans and ML/AI systems to interact in data work. </p>
+            <p> I am a Senior Research Scientist at <a target=_blank href="https://research.tableau.com/"> Tableau Research</a>. I am part of the Office of the CTO, where I design and develop new visual modalities for humans and ML/AI systems to interact in data work. </p>
 
             <p><strong>Research Interests:</strong> Interactive Machine Learning, Human Centered ML/AI, Data Science, Data Visualization, Bioinformatics</p>
 
