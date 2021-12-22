@@ -21,7 +21,11 @@ layout: default
         <div class="col-12 col-md-9">
          
             <h1 id="top"> Hi! I'm Ana Crisan</h1>
-            <p> I am a Senior Research Scientist at [Tableau Research](https://research.tableau.com/). I am part of the Office of the CTO, where I design and develop new visual modalities for humans and ML/AI systems to interact in data work.  </p>
+            <p> I am a Senior Research Scientist at [Tableau Research](https://research.tableau.com/). I am part of the Office of the CTO, where I design and develop new visual modalities for humans and ML/AI systems to interact in data work. </p>
+
+            <p><strong>Research Interests:</strong> Interactive Machine Learning, Human Centered ML/AI, Data Science, Data Visualization, Bioinformatics</p>
+
+            <p> I conduct interdisciplinary research that integrates techniques and methods from machine learning, human computer interaction, and data visualization. I analyze data, build tools, and conduct evaluative studies. My research focuses on the intersection of Data Science and Data Visualization.  I am especially interested in the way humans can collaboratively work together with ML/AI systems through visual interfaces. I completed my PhD in Computer Science at the University of British Columbia, where I was jointly advised by Tamara Munzner  and Jennifer Gardy.  Prior to my PhD, I was a research scientist at the British Columbia Centre for Disease Control and Decipher Biosciences, where I conducted research  machine learning and data visualization research toward applications in infectious disease and cancer genomics.</p>
 
         </div>
     </div>
