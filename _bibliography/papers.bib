@@ -1,115 +1,435 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@Article{crisan2024DagRep,
+  author =	{Crisan, Anamaria and Kotthoff, Lars and Streit, Marc and Xu, Kai},
+  title =	{{Human-Centered Approaches for Provenance in Automated Data Science (Dagstuhl Seminar 23372)}},
+  pages =	{116--136},
+  journal =	{Dagstuhl Reports},
+  ISSN =	{2192-5283},
+  year =	{2024},
+  volume =	{13},
+  number =	{9},
+  editor =	{Crisan, Anamaria and Kotthoff, Lars and Streit, Marc and Xu, Kai},
+  doi =		{10.4230/DagRep.13.9.116},
+  keywords =	{Dagstuhl Seminar, Provenance, AutoML, Data Science, Information Visualisation, Visual Analytics, Machine Learning, Human-Computer Interaction},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@ARTICLE{crisan2024modelsteering,
+  author={Crisan, Anamaria and Shang, Maddie and Brochu, Eric},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Eliciting Model Steering Interactions From Users via Data and Visual Design Probes}, 
+  year={2024},
+  volume={30},
+  number={9},
+  pages={6005-6019},
+  keywords={Data visualization,Design Probes,Interactive Machine Learning,Model Steering, Semantic Interactions},
+  doi={10.1109/TVCG.2023.3322898},
+  abstract={Visual and interactive machine learning systems (IML) are becoming ubiquitous as they empower individuals with varied machine learning expertise to analyze data. However, it remains complex to align interactions with visual marks to a user's intent for steering machine learning models. We explore using data and visual design probes to elicit users’ desired interactions to steer ML models via visual encodings within IML interfaces. We conducted an elicitation study with 20 data analysts with varying expertise in ML. We summarize our findings as pairs of target-interaction, which we compare to prior systems to assess the utility of the probes. We additionally surfaced insights about factors influencing how and why participants chose to interact with visual encodings, including refraining from interacting. Finally, we reflect on the value of gathering such formative empirical evidence via data and visual design probes ahead of developing IML prototypes.},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  doi_show={true},
+  abbr={TVCG},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{rogers2023automltrace,
+author = {Rogers, Jen and Crisan, Anamaria},
+title = {Tracing and Visualizing Human-ML/AI Collaborative Processes through Artifacts of Data Work},
+year = {2023},
+doi = {10.1145/3544548.3580819},
+abstract = {Automated Machine Learning technology can lower barriers in data work yet still requires human intervention to be functional. However, the complex and collaborative process resulting from humans and machines trading off work makes it difficult to trace what was done, by whom, or what, and when. In this research, we construct a taxonomy of data work artifacts that captures AutoML and human processes. We present a rigorous methodology for its creation and discuss its transferability to the visual design process. We operationalize the taxonomy through the development of&nbsp;AutoML Trace&nbsp; a visual interactive sketch showing both the context and temporality of human-ML/AI collaboration in data work. Finally, we demonstrate the utility of our approach via a usage scenario with an enterprise software development team. Collectively, our research process and findings explore challenges and fruitful avenues for developing data visualization tools that interrogate the sociotechnical relationships in automated data work.},
+booktitle = {Proc. CHI'23},
+articleno = {837},
+numpages = {22},
+keywords = {AutoML, Data Visualization, Human-Machine Collaboration, Taxonomy},
+bibtex_show={true},
+doi_show={true},
+abbr={CHI},
+}
+ @inproceedings{crisan2022interactivemodelcards,
+author = {Crisan, Anamaria and Drouhard, Margaret and Vig, Jesse and Rajani, Nazneen},
+title = {Interactive Model Cards: A Human-Centered Approach to Model Documentation},
+year = {2022},
+doi = {10.1145/3531146.3533108},
+abstract = {Deep learning models for natural language processing (NLP) are increasingly adopted and deployed by analysts without formal training in NLP or machine learning (ML). However, the documentation intended to convey the model's details and appropriate use is tailored primarily to individuals with ML or NLP expertise. To address this gap, we conduct a design inquiry into interactive model cards, which augment traditionally static model cards with affordances for exploring model documentation and interacting with the models themselves. Our investigation consists of an initial conceptual study with experts in ML, NLP, and AI Ethics, followed by a separate evaluative study with non-expert analysts who use ML models in their work. Using a semi-structured interview format coupled with a think-aloud protocol, we collected feedback from a total of 30 participants who engaged with different versions of standard and interactive model cards. Through a thematic analysis of the collected data, we identified several conceptual dimensions that summarize the strengths and limitations of standard and interactive model cards, including: stakeholders; design; guidance; understandability & interpretability; sensemaking \& skepticism; and trust & safety. Our findings demonstrate the importance of carefully considered design and interactivity for orienting and supporting non-expert analysts using deep learning models, along with a need for consideration of broader sociotechnical contexts and organizational dynamics. We have also identified design elements, such as language, visual cues, and warnings, among others, that support interactivity and make non-interactive content accessible. We summarize our findings as design guidelines and discuss their implications for a human-centered approach towards AI/ML documentation.},
+booktitle = {Proc. FAccT'22},
+pages = {427–439},
+numpages = {13},
+keywords = {Human Centered Design, Interactive Data Visualization, Model Cards},
+bibtex_show={true},
+doi_show={true},
+abbr={FAccT},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{crisan2022dashcovid,
+	author = {Crisan, Anamaria},
+	doi = {10.2105/AJPH.2022.306857},
+	eprint = {https://doi.org/10.2105/AJPH.2022.306857},
+	journal = {American Journal of Public Health},
+	number = {6},
+	pages = {893-895},
+	title = {The Importance of Data Visualization in Combating a Pandemic},
+	volume = {112},
+	year = {2022},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  doi_show={true}
 }
 
-@book{przibram1967letters,
+@ARTICLE{crisan2023datavoices,
+  author={Tory, Melanie and Bartram, Lyn and Fiore-Gartland, Brittany and Crisan, Anamaria},
+  journal={IEEE Computer Graphics and Applications}, 
+  title={Finding Their Data Voice: Practices and Challenges of Dashboard Users}, 
+  year={2023},
+  volume={43},
+  number={1},
+  pages={22-36},
+  keywords={Data Visualization,Statistics,Design tools, Data communication},
+  abstract={Dashboards are the ubiquitous means of data communication within organizations. Yet we have limited understanding of how they factor into data practices in the workplace, particularly for data workers who do not self-identify as professional analysts. We focus on data workers who use dashboards as a primary interface to data, reporting on an interview study that characterizes their data practices and the accompanying barriers to seamless data interaction. While dashboards are typically designed for data consumption, our findings show that dashboard users have far more diverse needs. To capture these activities, we frame data workers’ practices as data conversations: conversations with data capture classic analysis (asking and answering data questions), while conversations through and around data involve constructing representations and narratives for sharing and communication. Dashboard users faced substantial barriers in their data conversations: their engagement with data was often intermittent, dependent on experts, and involved an awkward assembly of tools. We challenge the visualization and analytics community to embrace dashboard users as a population and design tools that blend seamlessly into their work contexts.},
+  doi={10.1109/MCG.2021.3136545},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  doi_show={true},
+  }
+
+
+@ARTICLE{crisan2022gevitrec,
+  author={Crisan, Anamaria and Fisher, Shannah E. and Gardy, Jennifer L. and Munzner, Tamara},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={GEViTRec: Data Reconnaissance Through Recommendation Using a Domain-Specific Visualization Prevalence Design Space}, 
+  year={2022},
+  volume={28},
+  number={12},
+  pages={4855-4872},
+  keywords={Data visualization,Epidemiology,Heterogeneous Data,Multiple Coordinated Views,Data Reconnaissance,Bioinformatics},
+  abstract={Genomic Epidemiology (genEpi) is a branch of public health that uses many different data types including tabular, network, genomic, and geographic, to identify and contain outbreaks of deadly diseases. Due to the volume and variety of data, it is challenging for genEpi domain experts to conduct data reconnaissance; that is, have an overview of the data they have and make assessments toward its quality, completeness, and suitability. We present an algorithm for data reconnaissance through automatic visualization recommendation, GEViTRec. Our approach handles a broad variety of dataset types and automatically generates visually coherent combinations of charts, in contrast to existing systems that primarily focus on singleton visual encodings of tabular datasets. We automatically detect linkages across multiple input datasets by analyzing non-numeric attribute fields, creating a data source graph within which we analyze and rank paths. For each high-ranking path, we specify chart combinations with positional and color alignments between shared fields, using a gradual binding approach to transform initial partial specifications of singleton charts to complete specifications that are aligned and oriented consistently. A novel aspect of our approach is its combination of domain-agnostic elements with domain-specific information that is captured through a domain-specific visualization prevalence design space. Our implementation is applied to both synthetic data and real Ebola outbreak data. We compare GEViTRec's output to what previous visualization recommendation systems would generate, and to manually crafted visualizations used by practitioners. We conducted formative evaluations with ten genEpi experts to assess the relevance and interpretability of our results.},
+  doi={10.1109/TVCG.2021.3107749},
+  bibtex_show={true},
+  doi_show={true}
+  }
+
+@inproceedings{crisan2021fitandstarts,
+author = {Crisan, Anamaria and Fiore-Gartland, Brittany},
+title = {Fits and Starts: Enterprise Use of AutoML and the Role of Humans in the Loop},
+year = {2021},
+doi = {10.1145/3411764.3445775},
+abstract = {AutoML systems can speed up routine data science work and make machine learning available to those without expertise in statistics and computer science. These systems have gained traction in enterprise settings where pools of skilled data workers are limited. In this study, we conduct interviews with 29 individuals from organizations of different sizes to characterize how they currently use, or intend to use, AutoML systems in their data science work. Our investigation also captures how data visualization is used in conjunction with AutoML systems. Our findings identify three usage scenarios for AutoML that resulted in a framework summarizing the level of automation desired by data workers with different levels of expertise. We surfaced the tension between speed and human oversight and found that data visualization can do a poor job balancing the two. Our findings have implications for the design and implementation of human-in-the-loop visual analytics approaches.},
+booktitle = {Proc. CHI'21},
+articleno = {601},
+numpages = {15},
+keywords = {Automation, Data Science, Data Scientists, Machine Learning},
+bibtex_show={true},
+doi_show={true},
+abbr={CHI},
 }
+
+@inproceedings{crisan2021userexmachina,
+author = {Crisan, Anamaria and Correll, Michael},
+title = {User Ex Machina : Simulation as a Design Probe in Human-in-the-Loop Text Analytics},
+year = {2021},
+doi = {10.1145/3411764.3445425},
+abstract = {Topic models are widely used analysis techniques for clustering documents and surfacing thematic elements of text corpora. These models remain challenging to optimize and often require a “human-in-the-loop” approach where domain experts use their knowledge to steer and adjust. However, the fragility, incompleteness, and opacity of these models means even minor changes could induce large and potentially undesirable changes in resulting model. In this paper we conduct a simulation-based analysis of human-centered interactions with topic models, with the objective of measuring the sensitivity of topic models to common classes of user actions. We find that user interactions have impacts that differ in magnitude but often negatively affect the quality of the resulting modelling in a way that can be difficult for the user to evaluate. We suggest the incorporation of sensitivity and "multiverse" analyses to topic model interfaces to surface and overcome these deficiencies. },
+booktitle = {Proce. CHI'21},
+articleno = {600},
+numpages = {16},
+keywords = {Unsupervised Clustering, Topic mMdelling, Text Analytics, Human-in-the-Loop ML},
+bibtex_show={true},
+doi_show={true},
+abbr={CHI}
+}
+
+@ARTICLE{crisanbatton2020,
+  author={Crisan, Anamaria and Fiore-Gartland, Brittany and Tory, Melanie},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Passing the Data Baton : A Retrospective Analysis on Data Science Work and Workers}, 
+  year={2021},
+  volume={27},
+  number={2},
+  pages={1860-1870},
+  abstract={Data science is a rapidly growing discipline and organizations increasingly depend on data science work. Yet the ambiguity around data science, what it is, and who data scientists are can make it difficult for visualization researchers to identify impactful research trajectories. We have conducted a retrospective analysis of data science work and workers as described within the data visualization, human computer interaction, and data science literature. From this analysis we synthesis a comprehensive model that describes data science work and breakdown to data scientists into nine distinct roles. We summarise and reflect on the role that visualization has throughout data science work and the varied needs of data scientists themselves for tooling support. Our findings are intended to arm visualization researchers with a more concrete framing of data science with the hope that it will help them surface innovative opportunities for impacting data science work.},
+  doi={10.1109/TVCG.2020.3030340},
+  bibtex_show={true},
+  doi_show={true},
+  abbr={TVCG}
+}
+
+
+@inproceedings{crisan2020sortilege,
+author = {McNutt, Andrew and Crisan, Anamaria and Correll, Michael},
+title = {Divining Insights: Visual Analytics Through Cartomancy},
+year = {2020},
+doi = {10.1145/3334480.3381814},
+abstract = {Our interactions with data, visual analytics included, are increasingly shaped by automated or algorithmic systems. An open question is how to give analysts the tools to interpret these "automatic insights" while also inculcating critical engagement with algorithmic analysis. We present a system, Sortilege, that uses the metaphor of a Tarot card reading to provide an overview of automatically detected patterns in data in a way that is meant to encourage critique, reflection, and healthy skepticism.},
+booktitle = {Proc.CHI EA'20},
+pages = {1–16},
+numpages = {16},
+series = {CHI EA '20},
+bibtex_show={true},
+doi_show={true}
+}
+
+@INPROCEEDINGS{crisan2019datarecon,
+  author={Crisan, Anamaria and Munzner, Tamara},
+  booktitle={IEEE VIS'19}, 
+  title={Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={46-50},
+  abstract={Domain experts are inundated with new and heterogeneous types of data and require better and more specific types of data visualization systems to help them. In this paper, we consider the data landscape that domain experts seek to understand, namely the set of datasets that are either currently available or could be obtained. Experts need to understand this landscape to triage which data analysis projects might be viable, out of the many possible research questions that they could pursue. We identify data reconnaissance and task wrangling as processes that experts undertake to discover and identify sources of data that could be valuable for some specific analysis goal. These processes have thus far not been formally named or defined by the research community. We provide formal definitions of data reconnaissance and task wrangling and describe how they relate to the data landscape that domain experts must uncover. We propose a conceptual framework with a four-phase cycle of acquire, view, assess, and pursue that occurs within three distinct chronological stages, which we call fog and friction, informed data ideation, and demarcation of final data. Collectively, these four phases embedded within three temporal stages delineate an expert's progressively evolving understanding of the data landscape. We describe and provide concrete examples of these processes within the visualization community through an initial systematic analysis of previous design studies, identifying situations where there is evidence that they were at play. We also comment on the response of domain experts to this framework, and suggest design implications stemming from these processes to motivate future research directions. As technological changes will only keep adding unknown terrain to the data landscape, data reconnaissance and task wrangling are important processes that need to be more widely understood and supported by the data visualization tools. By articulating a concrete understanding of this challenge and its implications, our work impacts the design and evaluation of data visualization systems.},
+  keywords={Task analysis, Data visualization, Reconnaissance,Human-centered computing,Visualization Design and Evaluation Methods},
+  doi={10.1109/VISUAL.2019.8933542},
+  bibtex_show={true},
+  doi_show={true},
+}
+
+@article{crisan2018gevit,
+    author = {Crisan, Anamaria and Gardy, Jennifer L and Munzner, Tamara},
+    title = "{A systematic method for surveying data visualizations and a resulting genomic epidemiology visualization typology: GEViT}",
+    journal = {Bioinformatics},
+    volume = {35},
+    number = {10},
+    pages = {1668-1676},
+    year = {2018},
+    month = {09},
+    abstract = {Data visualization is an important tool for exploring and communicating findings from genomic and healthcare datasets. Yet, without a systematic way of organizing and describing the design space of data visualizations, researchers may not be aware of the breadth of possible visualization design choices or how to distinguish between good and bad options.We have developed a method that systematically surveys data visualizations using the analysis of both text and images. Our method supports the construction of a visualization design space that is explorable along two axes: why the visualization was created and how it was constructed. We applied our method to a corpus of scientific research articles from infectious disease genomic epidemiology and derived a Genomic Epidemiology Visualization Typology (GEViT) that describes how visualizations were created from a series of chart types, combinations and enhancements. We have also implemented an online gallery that allows others to explore our resulting design space of visualizations. Our results have important implications for visualization design and for researchers intending to develop or use data visualization tools. Finally, the method that we introduce is extensible to constructing visualizations design spaces across other research areas.},
+    doi = {10.1093/bioinformatics/bty832},
+    bibtex_show={true},
+    doi_show={true}
+}
+
+@INPROCEEDINGS{crisan2018evals,
+  author={Crisan, Anamaria and Elliott, Madison},
+  booktitle={Proc. IEEE Evaluation and Beyond - Methodological Approaches for Visualization (BELIV)}, 
+  title={How to Evaluate an Evaluation Study? Comparing and Contrasting Practices in Vis with Those of Other Disciplines : Position Paper}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={28-36},
+  abstract = {Evaluative practices within vis research are not routinely compared to those of psychology, sociology, or other areas of empirical study, leaving vis vulnerable to the replicability crisis that has embroiled scientific research more generally. In this position paper, we compare contemporary vis evaluative practices against those in those other disciplines, and make concrete recommendations as to how vis evaluative practice can be improved through the use of quantitative, qualitative, and mixed research methods. We summarize our discussion and recommendations as a checklist, that we intend to be used a resource for vis researchers conducting evaluative studies, and for reviewers evaluating the merits of such studies.},
+  keywords={Data Visualization, Human computer interaction, Computer science, Human-centered computing, Visualization Design and Evaluation Methods},
+  doi={10.1109/BELIV.2018.8634420},
+  bibtex_show={true},
+  doi_show={true}}
+
+
+@article{10.1093/bioinformatics/bty722,
+    author = {Crisan, Anamaria and Munzner, Tamara and Gardy, Jennifer L},
+    title = "{Adjutant: an R-based tool to support topic discovery for systematic and literature reviews}",
+    journal = {Bioinformatics},
+    volume = {35},
+    number = {6},
+    pages = {1070-1072},
+    year = {2018},
+    month = {08},
+    abstract = "{Adjutant is an open-source, interactive and R-based application to support mining PubMed for literature reviews. Given a PubMed-compatible search query, Adjutant downloads the relevant articles and allows the user to perform an unsupervised clustering analysis to identify data-driven topic clusters. Following clustering, users can also sample documents using different strategies to obtain a more manageable dataset for further analysis. Adjutant makes explicit trade-offs between speed and accuracy, which are modifiable by the user, such that a complete analysis of several thousand documents can take a few minutes. All analytic datasets generated by Adjutant are saved, allowing users to easily conduct other downstream analyses that Adjutant does not explicitly support. Adjutant is implemented in R, using Shiny, and is available at https://github.com/amcrisan/Adjutant.Supplementary data are available at Bioinformatics online.}",
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/bty722},
+    bibtex_show={true},
+    doi_show={true}
+}
+
+@ARTICLE{Crisan2018evidencebasedesign,
+  title    = {Evidence-based design and evaluation of a whole genome sequencing
+              clinical report for the reference microbiology laboratory},
+  author   = {Crisan, Anamaria and McKee, Geoffrey and Munzner, Tamara and
+              Gardy, Jennifer L},
+  abstract = {BACKGROUND: Microbial genome sequencing is now being routinely
+              used in many clinical and public health laboratories.
+              Understanding how to report complex genomic test results to
+              stakeholders who may have varying familiarity with
+              genomics-including clinicians, laboratorians, epidemiologists,
+              and researchers-is critical to the successful and sustainable
+              implementation of this new technology; however, there are no
+              evidence-based guidelines for designing such a report in the
+              pathogen genomics domain. Here, we describe an iterative,
+              human-centered approach to creating a report template for
+              communicating tuberculosis (TB) genomic test results. 
+              
+              METHODS: Weused Design Study Methodology-a human centered approach drawn
+              from the information visualization domain-to redesign an existing
+              clinical report. We used expert consults and an online
+              questionnaire to discover various stakeholders' needs around the
+              types of data and tasks related to TB that they encounter in
+              their daily workflow. We also evaluated their perceptions of and
+              familiarity with genomic data, as well as its utility at various
+              clinical decision points. These data shaped the design of
+              multiple prototype reports that were compared against the
+              existing report through a second online survey, with the
+              resulting qualitative and quantitative data informing the final,
+              redesigned, report. 
+              
+              RESULTS: We recruited 78 participants, 65 of
+              whom were clinicians, nurses, laboratorians, researchers, and
+              epidemiologists involved in TB diagnosis, treatment, and/or
+              surveillance. Our first survey indicated that participants were
+              largely enthusiastic about genomic data, with the majority
+              agreeing on its utility for certain TB diagnosis and treatment
+              tasks and many reporting some confidence in their ability to
+              interpret this type of data (between 58.8\% and 94.1\%, depending
+              on the specific data type). When we compared our four prototype
+              reports against the existing design, we found that for the
+              majority (86.7\%) of design comparisons, participants preferred
+              the alternative prototype designs over the existing version, and
+              that both clinicians and non-clinicians expressed similar design
+              preferences. Participants showed clearer design preferences when
+              asked to compare individual design elements versus entire
+              reports. Both the quantitative and qualitative data informed the
+              design of a revised report, available online as a LaTeX template.
+
+              CONCLUSIONS: We show how a human-centered design approach
+              integrating quantitative and qualitative feedback can be used to
+              design an alternative report for representing complex microbial
+              genomic data. We suggest experimental and design guidelines to
+              inform future design studies in the bioinformatics and microbial
+              genomics domains, and suggest that this type of mixed-methods
+              study is important to facilitate the successful translation of
+              pathogen genomics in the clinic, not only for clinical reports
+              but also more complex bioinformatics data visualization software.},
+  journal  = "PeerJ",
+  volume   =  6,
+  month    =  jan,
+  year     =  2018,
+  keywords = {Genome, Human-centered design, Next generation sequencing,
+              Report, Tuberculosis},
+  bibtex_show={true},
+  doi_show={true}
+}
+
+@inproceedings{Crisan2016Regconstraints,
+author = {Crisan, Anamaria and Gardy, Jennifer L. and Munzner, Tamara},
+title = {On Regulatory and Organizational Constraints in Visualization Design and Evaluation},
+year = {2016},
+doi = {10.1145/2993901.2993911},
+abstract = {Problem--based visualization research provides explicit guidance toward identifying and designing for the needs of users, but absent is more concrete guidance toward factors external to a user's needs that also have implications for visualization design and evaluation. This lack of more explicit guidance can leave visualization researchers and practitioners vulnerable to unforeseen constraints beyond the user's needs that can affect the validity of evaluations, or even lead to the premature termination of a project. Here we explore two types of external constraints in depth, regulatory and organizational constraints, and describe how these constraints impact visualization design and evaluation. By borrowing from techniques in software development, project management, and visualization research we recommend strategies for identifying, mitigating, and evaluating these external constraints through a design study methodology. Finally, we present an application of those recommendations in a healthcare case study. We argue that by explicitly incorporating external constraints into visualization design and evaluation, researchers and practitioners can improve the utility and validity of their visualization solution and improve the likelihood of successful collaborations with industries where external constraints are more present.},
+booktitle = {Proc. BELIV'16},
+pages = {1–9},
+numpages = {9},
+bibtex_show={true},
+doi_show={true}
+}
+
+
+@article{Hatherell2016DeclaringOutbreak,
+   author = "Hatherell, Hollie-Ann and Didelot, Xavier and Pollock, Sue L. and Tang, Patrick and Crisan, Anamaria and Johnston, James C. and Colijn, Caroline and Gardy, Jennifer L.",
+   title = "Declaring a tuberculosis outbreak over with genomic epidemiology", 
+   journal= "Microbial Genomics",
+   year = "2016",
+   volume = "2",
+   number = "5",
+   doi = "https://doi.org/10.1099/mgen.0.000060",
+   publisher = "Microbiology Society",
+   issn = "2057-5858",
+   keywords = {Phylogenetics, Tuberculosos, transmission Genomic Epidemiology},
+   abstract = {We report an updated method for inferring the time at which an infectious disease was transmitted between persons from a time-labelled pathogen genome phylogeny. We applied the method to 48 Mycobacterium tuberculosis genomes as part of a real-time public health outbreak investigation, demonstrating that although active tuberculosis (TB) cases were diagnosed through 2013, no transmission events took place beyond mid-2012. Subsequent cases were the result of progression from latent TB infection to active disease, and not recent transmission. This evolutionary genomic approach was used to declare the outbreak over in January 2015.},
+    bibtex_show={true},
+    doi_show={true}
+  }
+
+@article{Miller2016MLST,
+author = {Miller, Ruth R. and Langille, Morgan G. I. and Montoya, Vincent and Crisan, Anamaria and Stefanovic, Aleksandra and Martin, Irene and Hoang, Linda and Patrick, David M. and Romney, Marc and Tyrrell, Gregory and Jones, Steven J. M. and Brinkman, Fiona S. L. and Tang, Patrick},
+title = {Genomic Analysis of a Serotype 5 Streptococcus pneumoniae Outbreak in British Columbia, Canada, 2005–2009},
+journal = {Canadian Journal of Infectious Diseases and Medical Microbiology},
+volume = {2016},
+number = {1},
+pages = {5381871},
+doi = {https://doi.org/10.1155/2016/5381871},
+abstract = {Background. Streptococcus pneumoniae can cause a wide spectrum of disease, including invasive pneumococcal disease (IPD). From 2005 to 2009 an outbreak of IPD occurred in Western Canada, caused by a S. pneumoniae strain with multilocus sequence type (MLST) 289 and serotype 5. We sought to investigate the incidence of IPD due to this S. pneumoniae strain and to characterize the outbreak in British Columbia using whole-genome sequencing. Methods. IPD was defined according to Public Health Agency of Canada guidelines. Two isolates representing the beginning and end of the outbreak were whole-genome sequenced. The sequences were analyzed for single nucleotide variants (SNVs) and putative genomic islands. Results. The peak of the outbreak in British Columbia was in 2006, when 57\% of invasive S. pneumoniae isolates were serotype 5. Comparison of two whole-genome sequenced strains showed only 10 SNVs between them. A 15.5 kb genomic island was identified in outbreak strains, allowing the design of a PCR assay to track the spread of the outbreak strain. Discussion. We show that the serotype 5 MLST 289 strain contains a distinguishing genomic island, which remained genetically consistent over time. Whole-genome sequencing holds great promise for real-time characterization of outbreaks in the future and may allow responses tailored to characteristics identified in the genome.},
+year = {2016},
+bibtex_show={true},
+doi_show={true}
+}
+
+@article{Crisan2015BCR,
+author = {Alshalalfa, Mohammed and Crisan, Anamaria and Vergara, Ismael A. and Ghadessi, Mercedeh and Buerki, Christine and Erho, Nicholas and Yousefi, Kasra and Sierocinski, Thomas and Haddad, Zaid and Black, Peter C. and Karnes, R. Jeffrey and Jenkins, Robert B. and Davicioni, Elai},
+title = {Clinical and genomic analysis of metastatic prostate cancer progression with a background of postoperative biochemical recurrence},
+journal = {BJU International},
+volume = {116},
+number = {4},
+pages = {556-567},
+keywords = {prostate cancer, gene expression, metastasis, biochemical recurrence, gene functional analysis},
+doi = {https://doi.org/10.1111/bju.13013},
+abstract = {Objective To better characterize the genomics of patients with biochemical recurrence (BCR) who have metastatic disease progression in order to improve treatment decisions for prostate cancer. Methods The expression profiles of three clinical outcome groups after radical prostatectomy (RP) were compared: those with no evidence of disease (NED; n = 108); those with BCR (rise in prostate-specific antigen [PSA] level without metastasis; n = 163); and those with metastasis (n = 192). The patients were profiled using Human Exon 1.0 ST microarrays, and outcomes were supported by a median 18 years of follow-up. A metastasis signature was defined and verified in an independent RP cohort to ensure the robustness of the signature. Furthermore, bioinformatics characterization of the signature was conducted to decipher its biology. Results Minimal gene expression differences were observed between adjuvant treatment-naïve patients in the NED group and patients without metastasis in the BCR group. More than 95\% of the differentially expressed genes (metastasis signature) were found in comparisons between primary tumours of metastasis patients and the two other outcome groups. The metastasis signature was validated in an independent cohort and was significantly associated with cell cycle genes, ubiquitin-mediated proteolysis, DNA repair, androgen, G-protein coupled and NOTCH signal transduction pathways. Conclusion This study shows that metastasis development after BCR is associated with a distinct transcriptional programme that can be detected in the primary tumour. Patients with NED and BCR have highly similar transcriptional profiles, suggesting that measurement of PSA on its own is a poor surrogate for lethal disease. Use of genomic testing in patients undergoing RP with an initial rise in PSA level may be useful to improve secondary therapy decision-making.},
+year = {2015},
+bibtex_show={true},
+doi_show={true}
+}
+
+@ARTICLE{Crisan2015SpatioTemporal,
+  title    = "Spatio-temporal analysis of tuberculous infection risk among
+              clients of a homeless shelter during an outbreak",
+  author   = "Crisan, Anamaria and Wong, H Y and Johnston, J C and Tang, P and Colijn,
+              C and Otterstatter, M and Hiscoe, L and Parker, R and Pollock, S
+              L and Gardy, J L",
+  abstract = "SETTING: British Columbia (BC) has a low incidence of
+              tuberculosis (TB), with the burden of endogenously acquired
+              disease concentrated among vulnerable populations, including the
+              homeless. In May 2008, a TB outbreak began in a BC homeless
+              shelter, with a single index case seeding multiple secondary
+              cases within the shelter. OBJECTIVE: To use nightly shelter
+              records to quantify the risk of latent tuberculous infection
+              (LTBI) among shelter clients as a function of their sleeping
+              distance from and duration of exposure to the index case. DESIGN:
+              Distance and duration of exposure were visualised and assessed
+              using logistic regression with LTBI status as outcome. We used a
+              novel machine learning approach to establish exposure thresholds
+              that optimally separated infected and non-infected individuals.
+              RESULTS: Of 161 exposed shelter clients, 58 had a recorded
+              outcome of infected (n = 39) or non-infected (n = 19). Only
+              duration of exposure to the index was associated with increased
+              odds of infection (OR 1.26); stays of ⩾ 5 nights put shelter
+              clients at higher odds of infection (OR 4.97). CONCLUSION: The
+              unique data set and analytical approach suggested that, in a
+              shelter environment, long-term clients are at highest risk of
+              LTBI and should be prioritised for screening during an outbreak
+              investigation.",
+  journal  = "Int J Tuberc Lung Dis",
+  volume   =  19,
+  number   =  9,
+  pages    = "1033--8",
+  month    =  sep,
+  year     =  2015,
+    bibtex_show={true},
+    doi_show={true}
+}
+
+
+@article{cooperberg2015combined,
+title = {Combined Value of Validated Clinical and Genomic Risk Stratification Tools for Predicting Prostate Cancer Mortality in a High-risk Prostatectomy Cohort},
+journal = {European Urology},
+volume = {67},
+number = {2},
+pages = {326-333},
+year = {2015},
+issn = {0302-2838},
+doi = {https://doi.org/10.1016/j.eururo.2014.05.039},
+author = {Matthew R. Cooperberg and Elai Davicioni and Anamaria Crisan and Robert B. Jenkins and Mercedeh Ghadessi and R. Jeffrey Karnes},
+keywords = {Prostate neoplasms, Prostatectomy, Biomarkers, RNA, Risk stratification, CAPRA-S},
+abstract = {Background :Risk prediction models that incorporate biomarkers and clinicopathologic variables may be used to improve decision making after radical prostatectomy (RP). We compared two previously validated post-RP classifiers—the Cancer of the Prostate Risk Assessment Postsurgical (CAPRA-S) and the Decipher genomic classifier (GC)—to predict prostate cancer–specific mortality (CSM) in a contemporary cohort of RP patients.
+
+Objective: To evaluate the combined prognostic ability of CAPRA-S and GC to predict CSM.
+
+Design, setting, and participants: A cohort of 1010 patients at high risk of recurrence after RP were treated at the Mayo Clinic between 2000 and 2006. High risk was defined by any of the following: preoperative prostate-specific antigen >20 ng/ml, pathologic Gleason score ≥8, or stage pT3b. A case-cohort random sample identified 225 patients (with cases defined as patients who experienced CSM), among whom CAPRA-S and GC could be determined for 185 patients.
+Outcome measurements and statistical analysis
+The scores were evaluated individually and in combination using concordance index (c-index), decision curve analysis, reclassification, cumulative incidence, and Cox regression for the prediction of CSM.
+
+Conclusions: Both GC and CAPRA-S were significant independent predictors of CSM. GC was shown to reclassify many men stratified to high risk based on CAPRA-S ≥6 alone. Patients with both high GC and high CAPRA-S risk scores were at markedly elevated post-RP risk for lethal prostate cancer. If validated prospectively, these findings suggest that integration of a genomic-clinical classifier may enable better identification of those post-RP patients who should be considered for more aggressive secondary therapies and clinical trials.
+
+Patient summary : The Cancer of the Prostate Risk Assessment Postsurgical (CAPRA-S) and the Decipher genomic classifier (GC) were significant independent predictors of prostate cancer–specific mortality. These findings suggest that integration of a genomic-clinical classifier may enable better identification of those post–radical prostatectomy patients who should be considered for more aggressive secondary therapies and clinical trials.},
+bibtex_show={true},
+doi_show={true}
+}
+
+
+@article{ross2014DecipherEval,
+	abstract = {Due to their varied outcomes, men with biochemical recurrence (BCR) following radical prostatectomy (RP) present a management dilemma. Here, we evaluate Decipher, a genomic classifier (GC), for its ability to predict metastasis following BCR.},
+	author = {Ross, A E and Feng, F Y and Ghadessi, M. and Erho, N. and Crisan, A. and Buerki, C. and Sundi, D. and Mitra, A P and Vergara, I A and Thompson, D J S and Triche, T J and Davicioni, E. and Bergstralh, E J and Jenkins, R B and Karnes, R J and Schaeffer, E M},
+	journal = {Prostate Cancer and Prostatic Diseases},
+	number = {1},
+	pages = {64--69},
+	title = {A genomic classifier predicting metastatic disease progression in men with biochemical recurrence after prostatectomy},
+	doi = {https://doi.org/10.1038/pcan.2013.49},
+	volume = {17},
+	year = {2014},
+  bibtex_show={true},
+doi_show={true}
+  }
+
+
+
