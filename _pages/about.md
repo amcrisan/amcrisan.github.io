@@ -16,7 +16,7 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-I am an Assistant Professor in the [School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/). I am alo affiliated with teh [WaterlooHCI lab](http://hci.cs.uwaterloo.ca/people/) and am a member of the [Waterloo Artificial Intelligence Institute](https://uwaterloo.ca/artificial-intelligence-institute/). I conduct interdisciplinary research at the intersection of Human-Computer Interaction, Data Visualization, and Applied AI/ML. 
+I am an Assistant Professor in the [School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/). I am alo affiliated with the [WaterlooHCI lab](http://hci.cs.uwaterloo.ca/people/) and am a member of the [Waterloo Artificial Intelligence Institute](https://uwaterloo.ca/artificial-intelligence-institute/). I conduct interdisciplinary research at the intersection of Human-Computer Interaction, Data Visualization, and Applied AI/ML. 
 
 My areas of focus include:
 
