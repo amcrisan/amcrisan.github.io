@@ -59,7 +59,7 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% if p.nav and p.autogen == null and p.title != 'Publications' %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -108,6 +108,29 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          
+          <!-- Publications -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://scholar.google.ca/citations?user=tfnXxxIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              Publications
+            </a>
+          </li>
+          
+          <!-- CV -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/files/anamaria_crisan_cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+              CV
+            </a>
+          </li>
+          
+          <!-- InsightLab -->
+          <li class="nav-item">
+            <a class="nav-link highlight-link" href="https://uw-insight-lab.com" target="_blank" rel="noopener noreferrer">
+              <img src="{{ '/assets/img/logo_integrated.jpg' | relative_url }}" alt="InsightLab" style="width: 16px; height: 16px; margin-right: 4px; vertical-align: middle;">
+              InsightLab
+            </a>
+          </li>
+          
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

@@ -1304,3 +1304,44 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Custom highlight for important links (used for InsightLab nav item)
+.highlight-link {
+  background-color: #ffffff; /* White background */
+  color: #4a4a4a; /* Dark gray text for better contrast */
+  padding: 5px 2px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid #d8d8f0; /* Thicker purple border */
+  
+  &:hover {
+    background-color: #f8f8f8; /* Light gray on hover */
+    color: #2a2a2a;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Purple highlight for about page links (InsightLab and prospective students)
+.highlight-link-purple {
+  background-color: #e6e6fa; /* Light purple background */
+  color: #4a4a4a; /* Dark gray text for better contrast */
+  padding: 1px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #d8d8f0; /* Slightly darker purple border */
+  
+  &:hover {
+    background-color: #d8d8f0; /* Slightly darker on hover */
+    color: #2a2a2a;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Custom profile image styling with slight radius
+.profile-image-slight-radius {
+  border-radius: 12px !important; /* Slight radius instead of fully rounded */
+}
