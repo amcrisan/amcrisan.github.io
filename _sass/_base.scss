@@ -1345,3 +1345,10 @@ ninja-keys::part(ninja-input-wrapper) {
 .profile-image-slight-radius {
   border-radius: 12px !important; /* Slight radius instead of fully rounded */
 }
+
+// Reduce line spacing between news items by half
+.news .table-sm td,
+.news .table-sm th {
+  padding-top: 0.15rem !important;    /* Half of the default 0.3rem */
+  padding-bottom: 0.15rem !important; /* Half of the default 0.3rem */
+}
