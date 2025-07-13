@@ -21,7 +21,7 @@ on:
       - "!.github/workflows/deploy-image.yml"
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml.disabled"
+      - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -48,7 +48,7 @@ on:
       - "!.github/workflows/deploy-image.yml"
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml.disabled"
+      - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -75,8 +75,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: "18"
+          cache: "npm"
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:

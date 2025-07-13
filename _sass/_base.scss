@@ -1314,7 +1314,7 @@ ninja-keys::part(ninja-input-wrapper) {
   text-decoration: none;
   transition: all 0.3s ease;
   border: 2px solid #d8d8f0; /* Thicker purple border */
-  
+
   &:hover {
     background-color: #f8f8f8; /* Light gray on hover */
     color: #2a2a2a;
@@ -1332,7 +1332,7 @@ ninja-keys::part(ninja-input-wrapper) {
   text-decoration: none;
   transition: all 0.3s ease;
   border: 1px solid #d8d8f0; /* Slightly darker purple border */
-  
+
   &:hover {
     background-color: #d8d8f0; /* Slightly darker on hover */
     color: #2a2a2a;
@@ -1349,6 +1349,6 @@ ninja-keys::part(ninja-input-wrapper) {
 // Reduce line spacing between news items by half
 .news .table-sm td,
 .news .table-sm th {
-  padding-top: 0.15rem !important;    /* Half of the default 0.3rem */
+  padding-top: 0.15rem !important; /* Half of the default 0.3rem */
   padding-bottom: 0.15rem !important; /* Half of the default 0.3rem */
 }

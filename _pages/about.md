@@ -16,7 +16,8 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-I am an Assistant Professor in the [School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/). I am also affiliated with the [WaterlooHCI lab](http://hci.cs.uwaterloo.ca/people/) and am a member of the [Waterloo Artificial Intelligence Institute](https://uwaterloo.ca/artificial-intelligence-institute/). I conduct interdisciplinary research at the intersection of Human-Computer Interaction, Data Visualization, and Applied AI/ML. 
+
+I am an Assistant Professor in the [School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/). I am also affiliated with the [WaterlooHCI lab](http://hci.cs.uwaterloo.ca/people/) and am a member of the [Waterloo Artificial Intelligence Institute](https://uwaterloo.ca/artificial-intelligence-institute/). I conduct interdisciplinary research at the intersection of Human-Computer Interaction, Data Visualization, and Applied AI/ML.
 
 My areas of focus include:
 
@@ -24,4 +25,4 @@ My areas of focus include:
 - **Interactive Visualization Systems**: Designing visualization systems that support data-driven decision-making, from insight discovery to action
 - **Data Science in Healthcare, Public Health, and Biomedicine**: Leveraging data science and visualization to improve outcomes in healthcare and public health
 
-I run the [**Insight Lab**{: .highlight-link-purple}](https://uw-insight-lab.com) at the University of Waterloo. If you want to work with us, please take a careful look through the [*prospective student information*{: .highlight-link-purple}](https://www.uw-insight-lab.com/join/).
+I run the [**Insight Lab**{: .highlight-link-purple}](https://uw-insight-lab.com) at the University of Waterloo. If you want to work with us, please take a careful look through the [_prospective student information_{: .highlight-link-purple}](https://www.uw-insight-lab.com/join/).
